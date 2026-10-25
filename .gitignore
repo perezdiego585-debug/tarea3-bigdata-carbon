@@ -1,0 +1,7 @@
+regalias_minerales.csv
+resultados/
+__pycache__/
+spark-warehouse/
+metastore_db/
+derby.log
+*.tgz
