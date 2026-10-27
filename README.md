@@ -1,14 +1,14 @@
-Análisis de Producción de Carbón en Colombia
+¿De qué trata el proyecto?
 
-Descripción
+En este trabajo quiero analizar la producción de carbón en Colombia y las regalías que se generan por su explotación. Me interesa conocer cómo ha cambiado la producción con los años, cuáles son los departamentos y municipios que más producen y qué participación tiene Córdoba frente a otras regiones del país.
 
-Este proyecto busca analizar la producción de carbón en Colombia y las regalías que genera, utilizando datos publicados por la Agencia Nacional de Minería (ANM).
+Datos utilizados
 
-Objetivo
+Para realizar el análisis seleccioné la información publicada por la Agencia Nacional de Minería en el portal Datos Abiertos de Colombia.
 
-Identificar la evolución de la producción de carbón, los departamentos y municipios con mayor producción y la participación de Córdoba.
+Fuente de datos: https://www.datos.gov.co/d/r85m-vv6c
 
-Herramientas utilizadas
+Herramientas
 
 Python
 
@@ -18,14 +18,24 @@ Apache Kafka
 
 Spark Streaming
 
-Procesamiento de datos
+Archivos del proyecto
 
-Se realizará un análisis histórico de los datos y una simulación de información en tiempo real para practicar el procesamiento de datos con Spark y Kafka.
+descargar_datos.sh: descarga los datos que voy a utilizar.
 
-Fuente de datos
+analisis_batch_carbon.py: organiza y analiza la información de producción y regalías.
 
-Datos Abiertos de Colombia – ANM
+kafka_producer.py: genera datos simulados de camiones que transportan carbón.
+
+spark_streaming_consumer.py: recibe esos datos y calcula estadísticas en tiempo real.
+
+requirements.txt: contiene las librerías de Python utilizadas.
+
+¿Qué espero obtener?
+
+Con este proyecto espero identificar las tendencias de producción de carbón, comparar los resultados por departamento y revisar el comportamiento de Córdoba. También pondré en práctica el procesamiento de datos por lotes y en tiempo real, como parte de la actividad de Big Data.
 
 Autor
 
 Diego Pérez
+
+Big Data
