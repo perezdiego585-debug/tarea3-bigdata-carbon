@@ -1,6 +1,6 @@
 ¿De qué trata el proyecto?
 
-En este trabajo quiero analizar la producción de carbón en Colombia y las regalías que se generan por su explotación. Me interesa conocer cómo ha cambiado la producción con los años, cuáles son los departamentos y municipios que más producen y qué participación tiene Córdoba frente a otras regiones del país.
+En este trabajo quiero analizar la producción de carbón en Colombia y las regalías que se generan por su explotación. Me interesa conocer cómo ha cambiado la producción con los años, cuáles son los departamentos y municipios que más producen y qué participación tiene Córdoba frente a otras regiones del país
 
 Datos utilizados
 
